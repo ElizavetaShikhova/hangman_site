@@ -1,0 +1,53 @@
+@media screen and (max-width:1240px){
+  #hangman{
+    justify-content: center;
+    height: 300px;
+  }
+  h1{
+    font-size: 38px;
+    margin:0;
+  }
+  .button{
+    padding:13px 25px;
+  }
+
+}
+
+@media screen and (min-width: 1240px){
+    #hangman{
+        float:left;
+        left:10px;  
+    }
+    table{
+        top:120px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    #hangman{
+        justify-content: center;
+      }
+    h1{
+        text-align: center;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+  #hangman{
+    justify-content: center;
+  }
+  #back{
+    padding:3px 7px;
+    font-size: 18px;
+  }
+  table{
+    width: auto;
+    position: relative;
+    margin:auto;
+    padding-top:0px;
+  }
+  #change{
+    padding: 1em 2.6em;;
+  }
+}
