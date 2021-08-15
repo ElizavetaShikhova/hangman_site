@@ -29,7 +29,20 @@
       }
     h1{
         text-align: center;
-        width: auto;
+    }
+    #back{
+      padding:3px 7px;
+      font-size: 18px;
+    }
+    #change{
+      padding: 1em 2.6em;
+      top: 160px;
+    }
+    table{
+      width: auto;
+      position: relative;
+      margin:auto;
+      padding-top:0px;
     }
 }
 
@@ -48,6 +61,6 @@
     padding-top:0px;
   }
   #change{
-    padding: 1em 2.6em;;
+    padding: 1em 2.6em;
   }
 }
