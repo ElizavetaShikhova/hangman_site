@@ -10,7 +10,6 @@
 h1{
   position: relative;
   text-align: center;
-  font-size: 50px;
   margin: 2px;
   font: 'Snell Roundhand';
 }
@@ -35,22 +34,19 @@ body{
 }
 
 .button {
-    padding: 15px 25px;
-    position:relative;
-    font-size: 23px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 18px;
-    box-shadow: 0 9px #999;
-    margin-left:50%;
-    margin-top:50%;
-  }
-  
+  position:relative;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 9px #999;
+  margin-left:50%;
+  margin-top:50%;}
+
   .button:hover {background-color: #3e8e41}
   
   .button:active {
@@ -66,7 +62,7 @@ body{
 
   table {
     position: relative;
-    margin:auto;
+    margin:0 auto;
     padding-top:0px;
   }
 
