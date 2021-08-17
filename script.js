@@ -382,7 +382,6 @@ function reset() {
         a = a + guestword[i] + ' '
         }
     document.getElementById("word").innerHTML = a;
-    console.log(player.secretword)
     document.getElementById("result").innerHTML = 'Осталось жизней:'+ lifes
     let b = document.querySelectorAll(':disabled')
     for (let elem of b) {
@@ -630,12 +629,21 @@ function change(){
     c.remove("nactive");
     c.add("active");
 
-    var d = document.getElementById("table").classList;
-    d.remove("nactive");
-    d.add("active");
+    const screenWidth = window.screen.width
+    if (screenWidth < 768){
+        var q =  document.getElementById("table2").classList;
+        q.remove("nactive");
+        q.add("active");
+      } else {
+        var d = document.getElementById("table").classList;
+        d.remove("nactive");
+        d.add("active");
+    }
+    
 
     var f = document.getElementById("change").style="display:none"
     var g = document.getElementById("gallow1").style="display:none"
+
     var w = document.getElementById("hangman").classList;
     w.remove("nactive")
     w.add("active")
@@ -669,9 +677,16 @@ function change2(){
     c.remove("active");
     c.add("nactive");
 
-    var d = document.getElementById("table").classList;
-    d.remove("active");
-    d.add("nactive");
+    const screenWidth = window.screen.width
+    if (screenWidth < 768){
+        var q =  document.getElementById("table2").classList;
+        q.remove("active");
+        q.add("nactive");
+      } else {
+        var d = document.getElementById("table").classList;
+        d.remove("active");
+        d.add("nactive");
+    }
 
     var h = document.getElementById("back").classList;
     h.remove("active");
@@ -694,3 +709,4 @@ function change2(){
 
 }
 
+   
