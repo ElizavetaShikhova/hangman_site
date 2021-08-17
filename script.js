@@ -6,102 +6,137 @@ function init(){
 
     button1 = document.getElementById("а");
     button1.onclick = But1;
-
     button2 = document.getElementById("б");
     button2.onclick = But2;
-
     button3 = document.getElementById("в");
     button3.onclick = But3;
-
     button4 = document.getElementById("г");
     button4.onclick = But4;
-
     button5 = document.getElementById("д");
     button5.onclick = But5;
-
     button6 = document.getElementById("е");
     button6.onclick = But6;
-
     button7 = document.getElementById("ё");
     button7.onclick = But7;
-
     button8 = document.getElementById("ж");
     button8.onclick = But8;
-
-    button9 = document.getElementById("з")
+    button9 = document.getElementById("з");
     button9.onclick = But9;
-
-    button10 = document.getElementById("и")
+    button10 = document.getElementById("и");
     button10.onclick = But10;
-
-    button11 = document.getElementById("й")
+    button11 = document.getElementById("й");
     button11.onclick = But11;
-
-    button12 = document.getElementById("к")
+    button12 = document.getElementById("к");
     button12.onclick = But12;
-
-    button13 = document.getElementById("л")
+    button13 = document.getElementById("л");
     button13.onclick = But13;
-
-    button14 = document.getElementById("м")
+    button14 = document.getElementById("м");
     button14.onclick = But14;
-
-    button15 = document.getElementById("н")
+    button15 = document.getElementById("н");
     button15.onclick = But15;
-
-    button16 = document.getElementById("о")
+    button16 = document.getElementById("о");
     button16.onclick = But16;
-
-    button17 = document.getElementById("п")
+    button17 = document.getElementById("п");
     button17.onclick = But17;
-
-    button18 = document.getElementById("р")
+    button18 = document.getElementById("р");
     button18.onclick = But18;
-
-    button19 = document.getElementById("с")
+    button19 = document.getElementById("с");
     button19.onclick = But19;
-
-    button20 = document.getElementById("т")
+    button20 = document.getElementById("т");
     button20.onclick = But20;
-
-    button21 = document.getElementById("у")
+    button21 = document.getElementById("у");
     button21.onclick = But21;
-
-    button22 = document.getElementById("ф")
+    button22 = document.getElementById("ф");
     button22.onclick = But22;
-
-    button23 = document.getElementById("х")
+    button23 = document.getElementById("х");
     button23.onclick = But23;
-
-    button24 = document.getElementById("ц")
+    button24 = document.getElementById("ц");
     button24.onclick = But24;
-
-    button25 = document.getElementById("ч")
+    button25 = document.getElementById("ч");
     button25.onclick = But25;
-
-    button26 = document.getElementById("ш")
+    button26 = document.getElementById("ш");
     button26.onclick = But26;
-
-    button27 = document.getElementById("щ")
+    button27 = document.getElementById("щ");
     button27.onclick = But27;
-
-    button28 = document.getElementById("ъ")
+    button28 = document.getElementById("ъ");
     button28.onclick = But28;
-
-    button29 = document.getElementById("ы")
+    button29 = document.getElementById("ы");
     button29.onclick = But29;
-
-    button30 = document.getElementById("ь")
+    button30 = document.getElementById("ь");
     button30.onclick = But30;
-
-    button31 = document.getElementById("э")
+    button31 = document.getElementById("э");
     button31.onclick = But31;
-
-    button32 = document.getElementById("ю")
+    button32 = document.getElementById("ю");
     button32.onclick = But32;
-
-    button33 = document.getElementById("я")
+    button33 = document.getElementById("я");
     button33.onclick = But33;
+
+    button1_2 = document.getElementById("а2");
+    button1_2.onclick = But1;
+    button2_2 = document.getElementById("б2");
+    button2_2.onclick = But2;
+    button3_2 = document.getElementById("в2");
+    button3_2.onclick = But3;
+    button4_2 = document.getElementById("г2");
+    button4_2.onclick = But4;
+    button5_2 = document.getElementById("д2");
+    button5_2.onclick = But5;
+    button6_2 = document.getElementById("е2");
+    button6_2.onclick = But6;
+    button7_2 = document.getElementById("ё2");
+    button7_2.onclick = But7;
+    button8_2 = document.getElementById("ж2");
+    button8_2.onclick = But8;
+    button9_2 = document.getElementById("з2");
+    button9_2.onclick = But9;
+    button10_2 = document.getElementById("и2");
+    button10_2.onclick = But10;
+    button11_2 = document.getElementById("й2");
+    button11_2.onclick = But11;
+    button12_2 = document.getElementById("к2");
+    button12_2.onclick = But12;
+    button13_2 = document.getElementById("л2");
+    button13_2.onclick = But13;
+    button14_2 = document.getElementById("м2");
+    button14_2.onclick = But14;
+    button15_2 = document.getElementById("н2");
+    button15_2.onclick = But15;
+    button16_2 = document.getElementById("о2");
+    button16_2.onclick = But16;
+    button17_2 = document.getElementById("п2");
+    button17_2.onclick = But17;
+    button18_2 = document.getElementById("р2");
+    button18_2.onclick = But18;
+    button19_2 = document.getElementById("с2");
+    button19_2.onclick = But19;
+    button20_2 = document.getElementById("т2");
+    button20_2.onclick = But20;
+    button21_2 = document.getElementById("у2");
+    button21_2.onclick = But21;
+    button22_2 = document.getElementById("ф2");
+    button22_2.onclick = But22;
+    button23_2 = document.getElementById("х2");
+    button23_2.onclick = But23;
+    button24_2 = document.getElementById("ц2");
+    button24_2.onclick = But24;
+    button25_2 = document.getElementById("ч2");
+    button25_2.onclick = But25;
+    button26_2 = document.getElementById("ш2");
+    button26_2.onclick = But26;
+    button27_2 = document.getElementById("щ2");
+    button27_2.onclick = But27;
+    button28_2 = document.getElementById("ъ2");
+    button28_2.onclick = But28;
+    button29_2 = document.getElementById("ы2");
+    button29_2.onclick = But29;
+    button30_2 = document.getElementById("ь2");
+    button30_2.onclick = But30;
+    button31_2 = document.getElementById("э2");
+    button31_2.onclick = But31;
+    button32_2 = document.getElementById("ю2");
+    button32_2.onclick = But32;
+    button33_2 = document.getElementById("я2");
+    button33_2.onclick = But33;
 
     reset()
 }
@@ -109,199 +144,233 @@ function init(){
 function But1(){
     if (flag){
         checkLetter('а');
-        button1.setAttribute('disabled', true);}
+        button1.setAttribute('disabled', true);
+        button1_2.setAttribute('disabled', true);
+    }
 }
 
 function But2(){
     if (flag){
         checkLetter('б');
-        button2.setAttribute('disabled', true);}
+        button2.setAttribute('disabled', true);
+        button2_2.setAttribute('disabled', true);}
 }
 
 function But3(){
     if (flag){
     checkLetter('в');
-    button3.setAttribute('disabled', true);}
+    button3.setAttribute('disabled', true);
+    button3_2.setAttribute('disabled', true);}
 }
 
 function But4(){
     if (flag){
     checkLetter('г');
-    button4.setAttribute('disabled', true);}
+    button4.setAttribute('disabled', true);
+    button4_2.setAttribute('disabled', true);}
 }
 
 function But5(){
     if (flag){
     checkLetter('д');
-    button5.setAttribute('disabled', true);}
+    button5.setAttribute('disabled', true);
+    button5_2.setAttribute('disabled', true);}
 }
 
 function But6(){
     if (flag){
     checkLetter('е');
-    button6.setAttribute('disabled', true);}
+    button6.setAttribute('disabled', true);
+    button6_2.setAttribute('disabled', true);}
 }
 
 function But7(){
     if (flag){
     checkLetter('ё');
-    button7.setAttribute('disabled', true);}
+    button7.setAttribute('disabled', true);
+    button7_2.setAttribute('disabled', true);}
 }
 
 function But8(){
     if (flag){
     checkLetter('ж');
-    button8.setAttribute('disabled', true);}
+    button8.setAttribute('disabled', true);
+    button8_2.setAttribute('disabled', true);}
 }
 
 function But9(){
     if (flag){
     checkLetter('з');
-    button9.setAttribute('disabled', true);}
+    button9.setAttribute('disabled', true);
+    button9_2.setAttribute('disabled', true);}
 }
 
 function But10(){
     if (flag){
     checkLetter('и');
-    button10.setAttribute('disabled', true);}
+    button10.setAttribute('disabled', true);
+    button10_2.setAttribute('disabled', true);}
 }
 
 function But11(){
     if (flag){
     checkLetter('й');
-    button11.setAttribute('disabled', true);}
+    button11.setAttribute('disabled', true);
+    button11_2.setAttribute('disabled', true);}
 }
 
 function But12(){
     if (flag){
     checkLetter('к');
-    button12.setAttribute('disabled', true);}
+    button12.setAttribute('disabled', true);
+    button12_2.setAttribute('disabled', true);}
 }
 
 function But13(){
     if (flag){
     checkLetter('л');
-    button13.setAttribute('disabled', true);}
+    button13.setAttribute('disabled', true);
+    button13_2.setAttribute('disabled', true);}
 }
 
 function But14(){
     if (flag){
     checkLetter('м');
-    button14.setAttribute('disabled', true);}
+    button14.setAttribute('disabled', true);
+    button14_2.setAttribute('disabled', true);}
 }
 
 function But15(){
     if (flag){
     checkLetter('н');
-    button15.setAttribute('disabled', true);}
+    button15.setAttribute('disabled', true);
+    button15_2.setAttribute('disabled', true);}
 }
 
 function But16(){
     if (flag){
     checkLetter('о');
-    button16.setAttribute('disabled', true);}
+    button16.setAttribute('disabled', true);
+    button16_2.setAttribute('disabled', true);}
 }
 
 function But17(){
     if (flag){
     checkLetter('п');
-    button17.setAttribute('disabled', true);}
+    button17.setAttribute('disabled', true);
+    button17_2.setAttribute('disabled', true);}
 }
 
 function But18(){
     if (flag){
     checkLetter('р');
-    button18.setAttribute('disabled', true);}
+    button18.setAttribute('disabled', true);
+    button18_2.setAttribute('disabled', true);}
 }
 
 function But19(){
     if (flag){
     checkLetter('с');
-    button19.setAttribute('disabled', true);}
+    button19.setAttribute('disabled', true);
+    button19_2.setAttribute('disabled', true);}
 }
 
 function But20(){
     if (flag){
     checkLetter('т');
-    button20.setAttribute('disabled', true);}
+    button20.setAttribute('disabled', true);
+    button20_2.setAttribute('disabled', true);}
 }
 
 function But21(){
     if (flag){
     checkLetter('у');
-    button21.setAttribute('disabled', true);}
+    button21.setAttribute('disabled', true);
+    butto21_2.setAttribute('disabled', true);}
 }
 
 function But22(){
     if (flag){
     checkLetter('ф');
-    button22.setAttribute('disabled', true);}
+    button22.setAttribute('disabled', true);
+    button22_2.setAttribute('disabled', true);}
 }
 
 function But23(){
     if (flag){
     checkLetter('х');
-    button23.setAttribute('disabled', true);}
+    button23.setAttribute('disabled', true);
+    button23_2.setAttribute('disabled', true);}
 }
 
 function But24(){
     if (flag){
     checkLetter('ц');
-    button24.setAttribute('disabled', true);}
+    button24.setAttribute('disabled', true);
+    button24_2.setAttribute('disabled', true);}
 }
 
 function But25(){
     if (flag){
     checkLetter('ч');
-    button25.setAttribute('disabled', true);}
+    button25.setAttribute('disabled', true);
+    button25_2.setAttribute('disabled', true);}
 }
 
 function But26(){
     if (flag){
     checkLetter('ш');
-    button26.setAttribute('disabled', true);}
+    button26.setAttribute('disabled', true);
+    button26_2.setAttribute('disabled', true);}
 }
 
 function But27(){
     if (flag){
     checkLetter('щ');
-    button27.setAttribute('disabled', true);}
+    button27.setAttribute('disabled', true);
+    button27_2.setAttribute('disabled', true);}
 }
 
 function But28(){
     if (flag){
     checkLetter('ъ');
-    button28.setAttribute('disabled', true);}
+    button28.setAttribute('disabled', true);
+    button28_2.setAttribute('disabled', true);}
 }
 
 function But29(){
     if (flag){
     checkLetter('ы');
-    button29.setAttribute('disabled', true);}
+    button29.setAttribute('disabled', true);
+    button29_2.setAttribute('disabled', true);}
 }
 
 function But30(){
     if (flag){
     checkLetter('ь');
-    button30.setAttribute('disabled', true);}
+    button30.setAttribute('disabled', true);
+    button30_2.setAttribute('disabled', true);}
 }
 
 function But31(){
     if (flag){
     checkLetter('э');
-    button31.setAttribute('disabled', true);}
+    button31.setAttribute('disabled', true);
+    button31_2.setAttribute('disabled', true);}
 }
 
 function But32(){
     if (flag){
     checkLetter('ю');
-    button32.setAttribute('disabled', true);}
+    button32.setAttribute('disabled', true);
+    button32_2.setAttribute('disabled', true);}
 }
 
 function But33(){
     if (flag){
     checkLetter('я');
-    button33.setAttribute('disabled', true);}
+    button33.setAttribute('disabled', true);
+    button33_2.setAttribute('disabled', true);}
 }
 
 
@@ -708,5 +777,3 @@ function change2(){
     t.add("active");
 
 }
-
-   
