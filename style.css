@@ -24,7 +24,8 @@ h1{
 body{
   font-family: 'Kelly Slab', cursive;
   width: auto;
-  background-image: url("https://cleanpublicdomain.com/wp-content/uploads/2019/07/grid-2170631-548x365.png");
+  background-image: url("https://interyerus.ru/f/product/364023.jpg")
+  /*background-image: url("https://cleanpublicdomain.com/wp-content/uploads/2019/07/grid-2170631-548x365.png");*/
   /*background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/thumbs/1614787964_3-p-tetradnii-list-v-kletku-fon-3.jpg');*/
 }
 
@@ -62,7 +63,8 @@ body{
 
   table {
     position: relative;
-    margin:0 auto;
+    /*margin:0 auto;*/
+    left:-4%;
     padding-top:0px;
   }
 
@@ -73,7 +75,6 @@ body{
   .active{
     display:flex;
   }
-
 
   #change{
       position: relative;
