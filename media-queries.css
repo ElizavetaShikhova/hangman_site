@@ -126,7 +126,7 @@
 @media only screen and (max-device-width: 480px){
   #hangman{
     justify-content: center;
-    height: 200px;
+    height: 195px;
   }
   #back{
     padding:4px 8px;
@@ -140,13 +140,35 @@
     font-size: 24px;
   }
   #gallow1{
-    font-size:45px;
+    font-size:47px;
   }
-    .button {
-      padding: 5px 14px;
-      font-size: 15px;
-      box-shadow: 0 4px #999;
-      border-radius: 11px;
-    }
+  .button {
+    padding: 5px 14px;
+    font-size: 15px;
+    box-shadow: 0 4px #999;
+    border-radius: 11px;
+  }
+  #table2{
+    left:-6%;
+  }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+  #hangman{
+    height: 330px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  #back{
+    padding: 13px 17px;
+    font-size: 26px;
+  }
+  #change{
+    top:320px;
   }
 
+  #table{
+    bottom:2%;
+  }
+}
